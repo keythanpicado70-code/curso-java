@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Día 1 – Variables en Java</title>
+
+<style>
+*{
+  box-sizing:border-box;
+}
+
+html, body{
+  margin:0;
+  padding:0;
+  width:100%;
+  min-height:100%;
+}
+
+body{
+  font-family: Arial, sans-serif;
+  background:#1e1e2f;
+  color:#111;
+}
+
+.page{
+  padding:20px;
+}
+
+.card{
+  background:#ffffff;
+  border-radius:16px;
+  padding:24px;
+  max-width:900px;
+  margin:20px auto;
+  box-shadow:0 8px 25px rgba(0,0,0,0.4);
+}
+
+h1,h2,h3{
+  margin-top:0;
+}
+
+pre{
+  background:#f2f2f2;
+  padding:15px;
+  border-radius:10px;
+  overflow-x:auto;
+}
+
+button{
+  width:100%;
+  padding:14px;
+  font-size:16px;
+  border:none;
+  border-radius:10px;
+  background:#111;
+  color:white;
+  cursor:pointer;
+}
+
+button:hover{
+  background:#333;
+}
+</style>
+</head>
+
+<body>
+
+<div class="page">
+
+<div class="card">
+<h1>📘 Día 1 – Variables en Java</h1>
+
+<p>
+Antes de escribir código, debes entender qué es una <b>variable</b>.
+</p>
+
+<p>
+Una variable es un espacio en memoria donde se guarda información.
+Java es un lenguaje estricto, por eso debes indicar el tipo de dato.
+</p>
+
+<h3>🧠 Cómo se escribe una variable</h3>
+
+<pre>
+tipo nombre = valor;
+</pre>
+
+<h3>📌 Ejemplos correctos</h3>
+
+<pre>
+int edad = 18;
+double precio = 10.5;
+String nombre = "Carlos";
+boolean activo = true;
+</pre>
+
+<h3>❌ Ejemplo incorrecto</h3>
+
+<pre>
+int precio = 10.5; // ERROR
+</pre>
+
+<p>
+Esto falla porque <b>int</b> no acepta decimales.
+</p>
+
+<h3>✔ Ejemplo correcto</h3>
+
+<pre>
+double precio = 10.5;
+</pre>
+
+<p>
+Lee con calma todo esto.  
+Cuando ya lo entiendas, baja y presiona <b>LISTO</b>.
+</p>
+
+<br>
+
+<button onclick="location.href='dia1_prueba.html'">
+✅ LISTO – IR A LA PRUEBA
+</button>
+
+</div>
+
+</div>
+
+</body>
+</html>
